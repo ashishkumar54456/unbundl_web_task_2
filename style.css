@@ -1,0 +1,100 @@
+ /* Style the container */
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  /* Style the title */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: brown;
+  }
+
+  /* Style the products */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+
+  /* Style each product */
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  /* Style the product image */
+  .product img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Style the product name */
+  .product p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+  }
+
+  /* Style the product price */
+  .product span {
+    font-size: 14px;
+    color: green;
+    margin: 5px;
+  }
+
+  /* Style the product input */
+  .product input {
+    width: 50px;
+    height: 20px;
+    text-align: center;
+  }
+
+  /* Style the summary */
+  .summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  /* Style the summary title */
+  .summary h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    margin: 5px;
+  }
+
+  /* Style the summary items */
+  .summary ul {
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+  }
+
+  /* Style the summary item */
+  .summary li {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  /* Style the summary total */
+  .summary p {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    margin: 5px;
+  }
